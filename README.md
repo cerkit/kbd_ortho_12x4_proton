@@ -30,7 +30,7 @@ Here are the pin connections:
 
 I don't have the boards, yet, so I haven't even started the QMK firmware changes.
 
-Special thanks to [@tzarc](https://github.com/tzarc), [D3vastat0r](https://github.com/D3vastat0r), and [zvecr](https://github.com/zvecr) for answering my questions on the QMK Discord.
+Special thanks to [@tzarc](https://github.com/tzarc), [D3vastat0r](https://github.com/covah901), and [zvecr](https://github.com/zvecr) for answering my questions on the QMK Discord.
 
 ![cerkit ortho with Proton C front](https://github.com/cerkit/kbd_ortho_12x4_proton/blob/master/cerkit_planck_proton_front_copper.png?raw=true)
 
