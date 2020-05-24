@@ -11,23 +11,22 @@
 
 Here are the pin connections:
 
-Row 0: B0
-Row 1: B1
-Row 2: B2
-Row 3: B3
-
-Col 0: A13
-Col 1: A14
-Col 2: B12
-Col 3: B11
-Col 4: B10
-Col 5: B9
-Col 6: B15
-Col 7: B14
-Col 8: B13
-Col 9: B8
-Col 10: A0
-Col 11: A1
+* Row 0: B0
+* Row 1: B1
+* Row 2: B2
+* Row 3: B3
+* Col 0: A13
+* Col 1: A14
+* Col 2: B12
+* Col 3: B11
+* Col 4: B10
+* Col 5: B9
+* Col 6: B15
+* Col 7: B14
+* Col 8: B13
+* Col 9: B8
+* Col 10: A0
+* Col 11: A1
 
 I don't have the boards, yet, so I haven't even started the QMK firmware changes.
 
