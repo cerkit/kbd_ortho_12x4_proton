@@ -40,6 +40,8 @@ I didn't make a ground plane, so the components are wired directly to ground pin
 
 Special thanks to [@tzarc](https://github.com/tzarc), [D3vastat0r](https://github.com/covah901), and [zvecr](https://github.com/zvecr) for answering my questions on the QMK Discord.
 
-![cerkit ortho with Proton C front](https://github.com/cerkit/kbd_ortho_12x4_proton/blob/master/cerkit_planck_proton_front_copper.png?raw=true)
+![cerkit48 schematic](https://github.com/cerkit/kbd_ortho_12x4_proton/blob/master/cerkit48_schematic.png?raw=true)
 
-![cerkit ortho with Proton C back](https://github.com/cerkit/kbd_ortho_12x4_proton/blob/master/cerkit_planck_proton_back_copper.png?raw=true)
+![cerkit48 front](https://github.com/cerkit/kbd_ortho_12x4_proton/blob/master/cerkit48_front_copper.png?raw=true)
+
+![cerkit48 back](https://github.com/cerkit/kbd_ortho_12x4_proton/blob/master/cerkit48_back_copper.png?raw=true)
