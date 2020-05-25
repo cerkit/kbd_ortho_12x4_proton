@@ -9,6 +9,8 @@
 
  [Qwiic connector](https://www.sparkfun.com/products/14417)
 
+ [Reset button](https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf)
+
 Here are the pin connections:
 
 * Row 0: B0
