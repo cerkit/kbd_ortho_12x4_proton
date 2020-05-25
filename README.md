@@ -1,4 +1,4 @@
-# kbd_ortho_12x4_proton
+# kbd_ortho_12x4_proton (cerkit48)
  12x4 Ortholinear with integrated [Proton C](https://qmk.fm/proton-c/)
 
  This is my second keyboard design. After finishing my [first design](https://github.com/cerkit/kbd_ortho_12x4), I decided to integrate the [microcontroller](https://qmk.fm/proton-c/) into the board to reduce the amount of wires everywhere and make it more complete.
@@ -35,6 +35,8 @@ I've created the board firmware as [cerkit48 in my GitHub branch for qmk_firmwar
 Make example for this keyboard (after setting up your build environment):
 
     make cerkit48:default
+    
+I didn't make a ground plane, so the components are wired directly to ground pins.
 
 Special thanks to [@tzarc](https://github.com/tzarc), [D3vastat0r](https://github.com/covah901), and [zvecr](https://github.com/zvecr) for answering my questions on the QMK Discord.
 
