@@ -36,7 +36,7 @@ Make example for this keyboard (after setting up your build environment):
 
     make cerkit48:default
     
-I didn't make a ground plane, so the components are wired directly to ground pins.
+The copper fill is the ground plane.
 
 Special thanks to [@tzarc](https://github.com/tzarc), [D3vastat0r](https://github.com/covah901), and [zvecr](https://github.com/zvecr) for answering my questions on the QMK Discord.
 
