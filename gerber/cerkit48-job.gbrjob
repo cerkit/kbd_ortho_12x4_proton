@@ -7,14 +7,14 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.6)-1"
     },
-    "CreationDate":  "2020-05-24T21:22:09-05:00"
+    "CreationDate":  "2020-05-25T14:44:27-05:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "cerkit_planck_proton",
-      "GUID": "6365726b-6974-45f7-906c-616e636b5f70",
+      "Name": "cerkit48",
+      "GUID": "6365726b-6974-4343-982e-6b696361645f",
       "Revision": "rev?"
     },
     "Size":
@@ -40,43 +40,52 @@
   "FilesAttributes":
   [
     {
-      "Path":  "cerkit_planck_proton-F_Cu.gbr",
+      "Path":  "cerkit48-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "cerkit_planck_proton-B_Cu.gbr",
+      "Path":  "cerkit48-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "cerkit_planck_proton-F_Paste.gbr",
+      "Path":  "cerkit48-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "cerkit_planck_proton-B_Paste.gbr",
+      "Path":  "cerkit48-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "cerkit_planck_proton-F_Mask.gbr",
+      "Path":  "cerkit48-F_SilkS.gbr",
+      "FileFunction":  "Legend,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "cerkit48-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "cerkit_planck_proton-B_Mask.gbr",
+      "Path":  "cerkit48-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "cerkit_planck_proton-Edge_Cuts.gbr",
+      "Path":  "cerkit48-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
   ],
   "MaterialStackup":
   [
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer F.SilkS"
+    },
     {
       "Type":  "SolderPaste",
       "Notes":  "Layer F.Paste"
