@@ -459,8 +459,6 @@ F 3 "" H 2150 3925 50  0001 C CNN
 	1    2150 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1550 5750 2100 5750
 $Comp
 L Diode:1N4148 D26
 U 1 1 5F20DCD5
@@ -472,8 +470,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2100 
 	1    2100 5600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1550 5050 2100 5050
 $Comp
 L Diode:1N4148 D14
 U 1 1 5F20DCDC
@@ -485,8 +481,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2100 
 	1    2100 4900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1550 4350 2100 4350
 $Comp
 L Diode:1N4148 D2
 U 1 1 5F20DCE3
@@ -545,8 +539,6 @@ F 3 "" H 2150 6025 50  0001 C CNN
 	1    2150 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1550 6450 2100 6450
 $Comp
 L Diode:1N4148 D38
 U 1 1 5F20DD04
@@ -576,8 +568,6 @@ F 3 "" H 2800 3925 50  0001 C CNN
 	1    2800 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2200 5750 2750 5750
 $Comp
 L Diode:1N4148 D27
 U 1 1 5F217E6E
@@ -589,8 +579,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2750 
 	1    2750 5600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2200 5050 2750 5050
 $Comp
 L Diode:1N4148 D15
 U 1 1 5F217E75
@@ -602,8 +590,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2750 
 	1    2750 4900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2200 4350 2750 4350
 $Comp
 L Diode:1N4148 D3
 U 1 1 5F217E7C
@@ -662,8 +648,6 @@ F 3 "" H 2800 6025 50  0001 C CNN
 	1    2800 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2200 6450 2750 6450
 $Comp
 L Diode:1N4148 D39
 U 1 1 5F217E9D
@@ -693,8 +677,6 @@ F 3 "" H 3450 3925 50  0001 C CNN
 	1    3450 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2850 5750 3400 5750
 $Comp
 L Diode:1N4148 D28
 U 1 1 5F22034A
@@ -706,8 +688,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3400 
 	1    3400 5600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2850 5050 3400 5050
 $Comp
 L Diode:1N4148 D16
 U 1 1 5F220351
@@ -719,8 +699,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3400 
 	1    3400 4900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2850 4350 3400 4350
 $Comp
 L Diode:1N4148 D4
 U 1 1 5F220358
@@ -779,8 +757,6 @@ F 3 "" H 3450 6025 50  0001 C CNN
 	1    3450 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2850 6450 3400 6450
 $Comp
 L Diode:1N4148 D40
 U 1 1 5F220379
@@ -810,8 +786,6 @@ F 3 "" H 4100 3925 50  0001 C CNN
 	1    4100 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3500 5750 4050 5750
 $Comp
 L Diode:1N4148 D29
 U 1 1 5F22A7E9
@@ -823,8 +797,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4050 
 	1    4050 5600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3500 5050 4050 5050
 $Comp
 L Diode:1N4148 D17
 U 1 1 5F22A7F0
@@ -836,8 +808,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4050 
 	1    4050 4900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3500 4350 4050 4350
 $Comp
 L Diode:1N4148 D5
 U 1 1 5F22A7F7
@@ -896,8 +866,6 @@ F 3 "" H 4100 6025 50  0001 C CNN
 	1    4100 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3500 6450 4050 6450
 $Comp
 L Diode:1N4148 D41
 U 1 1 5F22A818
@@ -927,8 +895,6 @@ F 3 "" H 4750 3925 50  0001 C CNN
 	1    4750 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4150 5750 4700 5750
 $Comp
 L Diode:1N4148 D30
 U 1 1 5F235BFB
@@ -940,8 +906,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4700 
 	1    4700 5600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4150 5050 4700 5050
 $Comp
 L Diode:1N4148 D18
 U 1 1 5F235C02
@@ -953,8 +917,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4700 
 	1    4700 4900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4150 4350 4700 4350
 $Comp
 L Diode:1N4148 D6
 U 1 1 5F235C09
@@ -1013,8 +975,6 @@ F 3 "" H 4750 6025 50  0001 C CNN
 	1    4750 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4150 6450 4700 6450
 $Comp
 L Diode:1N4148 D42
 U 1 1 5F235C2A
@@ -1044,8 +1004,6 @@ F 3 "" H 5400 3925 50  0001 C CNN
 	1    5400 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4800 5750 5350 5750
 $Comp
 L Diode:1N4148 D31
 U 1 1 5F24C260
@@ -1057,8 +1015,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5350 
 	1    5350 5600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4800 5050 5350 5050
 $Comp
 L Diode:1N4148 D19
 U 1 1 5F24C267
@@ -1070,8 +1026,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5350 
 	1    5350 4900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4800 4350 5350 4350
 $Comp
 L Diode:1N4148 D7
 U 1 1 5F24C26E
@@ -1130,8 +1084,6 @@ F 3 "" H 5400 6025 50  0001 C CNN
 	1    5400 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4800 6450 5350 6450
 $Comp
 L Diode:1N4148 D43
 U 1 1 5F24C28F
@@ -1161,8 +1113,6 @@ F 3 "" H 6050 3925 50  0001 C CNN
 	1    6050 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 5750 6000 5750
 $Comp
 L Diode:1N4148 D32
 U 1 1 5F258050
@@ -1174,8 +1124,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6000 
 	1    6000 5600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5450 5050 6000 5050
 $Comp
 L Diode:1N4148 D20
 U 1 1 5F258057
@@ -1187,8 +1135,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6000 
 	1    6000 4900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5450 4350 6000 4350
 $Comp
 L Diode:1N4148 D8
 U 1 1 5F25805E
@@ -1247,8 +1193,6 @@ F 3 "" H 6050 6025 50  0001 C CNN
 	1    6050 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 6450 6000 6450
 $Comp
 L Diode:1N4148 D44
 U 1 1 5F25807F
@@ -1278,8 +1222,6 @@ F 3 "" H 6700 3925 50  0001 C CNN
 	1    6700 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6100 5750 6650 5750
 $Comp
 L Diode:1N4148 D33
 U 1 1 5F2644E3
@@ -1291,8 +1233,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6650 
 	1    6650 5600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6100 5050 6650 5050
 $Comp
 L Diode:1N4148 D21
 U 1 1 5F2644EA
@@ -1304,8 +1244,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6650 
 	1    6650 4900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6100 4350 6650 4350
 $Comp
 L Diode:1N4148 D9
 U 1 1 5F2644F1
@@ -1364,8 +1302,6 @@ F 3 "" H 6700 6025 50  0001 C CNN
 	1    6700 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6100 6450 6650 6450
 $Comp
 L Diode:1N4148 D45
 U 1 1 5F264512
@@ -1395,8 +1331,6 @@ F 3 "" H 7350 3925 50  0001 C CNN
 	1    7350 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6750 5750 7300 5750
 $Comp
 L Diode:1N4148 D34
 U 1 1 5F275F61
@@ -1408,8 +1342,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7300 
 	1    7300 5600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6750 5050 7300 5050
 $Comp
 L Diode:1N4148 D22
 U 1 1 5F275F68
@@ -1421,8 +1353,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7300 
 	1    7300 4900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6750 4350 7300 4350
 $Comp
 L Diode:1N4148 D10
 U 1 1 5F275F6F
@@ -1481,8 +1411,6 @@ F 3 "" H 7350 6025 50  0001 C CNN
 	1    7350 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6750 6450 7300 6450
 $Comp
 L Diode:1N4148 D46
 U 1 1 5F275F90
@@ -1512,8 +1440,6 @@ F 3 "" H 8050 3925 50  0001 C CNN
 	1    8050 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7450 5750 8000 5750
 $Comp
 L Diode:1N4148 D35
 U 1 1 5F28725A
@@ -1525,8 +1451,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8000 
 	1    8000 5600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7450 5050 8000 5050
 $Comp
 L Diode:1N4148 D23
 U 1 1 5F287261
@@ -1538,8 +1462,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8000 
 	1    8000 4900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7450 4350 8000 4350
 $Comp
 L Diode:1N4148 D11
 U 1 1 5F287268
@@ -1598,8 +1520,6 @@ F 3 "" H 8050 6025 50  0001 C CNN
 	1    8050 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7450 6450 8000 6450
 $Comp
 L Diode:1N4148 D47
 U 1 1 5F287289
@@ -1629,8 +1549,6 @@ F 3 "" H 8700 3925 50  0001 C CNN
 	1    8700 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8100 5750 8650 5750
 $Comp
 L Diode:1N4148 D36
 U 1 1 5F29581E
@@ -1642,8 +1560,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8650 
 	1    8650 5600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8100 5050 8650 5050
 $Comp
 L Diode:1N4148 D24
 U 1 1 5F295825
@@ -1655,8 +1571,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8650 
 	1    8650 4900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8100 4350 8650 4350
 $Comp
 L Diode:1N4148 D12
 U 1 1 5F29582C
@@ -1715,8 +1629,6 @@ F 3 "" H 8700 6025 50  0001 C CNN
 	1    8700 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8100 6450 8650 6450
 $Comp
 L Diode:1N4148 D48
 U 1 1 5F29584D
@@ -1733,4 +1645,136 @@ Wire Wire Line
 Wire Wire Line
 	9100 5950 8850 5950
 Connection ~ 9100 5250
+Wire Wire Line
+	1450 4350 2100 4350
+Connection ~ 1450 4350
+Wire Wire Line
+	2100 4350 2750 4350
+Connection ~ 2100 4350
+Wire Wire Line
+	2750 4350 3400 4350
+Connection ~ 2750 4350
+Wire Wire Line
+	3400 4350 4050 4350
+Connection ~ 3400 4350
+Wire Wire Line
+	4050 4350 4700 4350
+Connection ~ 4050 4350
+Wire Wire Line
+	4700 4350 5350 4350
+Connection ~ 4700 4350
+Wire Wire Line
+	5350 4350 6000 4350
+Connection ~ 5350 4350
+Wire Wire Line
+	6000 4350 6650 4350
+Connection ~ 6000 4350
+Wire Wire Line
+	6650 4350 7300 4350
+Connection ~ 6650 4350
+Wire Wire Line
+	7300 4350 8000 4350
+Connection ~ 7300 4350
+Wire Wire Line
+	8000 4350 8650 4350
+Connection ~ 8000 4350
+Wire Wire Line
+	8000 5050 8650 5050
+Connection ~ 8000 5050
+Wire Wire Line
+	7300 5050 8000 5050
+Connection ~ 7300 5050
+Wire Wire Line
+	6650 5050 7300 5050
+Connection ~ 6650 5050
+Wire Wire Line
+	6000 5050 6650 5050
+Connection ~ 6000 5050
+Wire Wire Line
+	5350 5050 6000 5050
+Connection ~ 5350 5050
+Wire Wire Line
+	4700 5050 5350 5050
+Connection ~ 4700 5050
+Wire Wire Line
+	4050 5050 4700 5050
+Connection ~ 4050 5050
+Wire Wire Line
+	3400 5050 4050 5050
+Connection ~ 3400 5050
+Wire Wire Line
+	2750 5050 3400 5050
+Connection ~ 2750 5050
+Wire Wire Line
+	2100 5050 2750 5050
+Connection ~ 2100 5050
+Wire Wire Line
+	1450 5050 2100 5050
+Connection ~ 1450 5050
+Wire Wire Line
+	1450 5750 2100 5750
+Connection ~ 1450 5750
+Wire Wire Line
+	2100 5750 2750 5750
+Connection ~ 2100 5750
+Wire Wire Line
+	2750 5750 3400 5750
+Connection ~ 2750 5750
+Wire Wire Line
+	3400 5750 4050 5750
+Connection ~ 3400 5750
+Wire Wire Line
+	4050 5750 4700 5750
+Connection ~ 4050 5750
+Wire Wire Line
+	4700 5750 5350 5750
+Connection ~ 4700 5750
+Wire Wire Line
+	5350 5750 6000 5750
+Connection ~ 5350 5750
+Wire Wire Line
+	6000 5750 6650 5750
+Connection ~ 6000 5750
+Wire Wire Line
+	6650 5750 7300 5750
+Connection ~ 6650 5750
+Wire Wire Line
+	7300 5750 8000 5750
+Connection ~ 7300 5750
+Wire Wire Line
+	8000 5750 8650 5750
+Connection ~ 8000 5750
+Wire Wire Line
+	1450 6450 2100 6450
+Connection ~ 1450 6450
+Wire Wire Line
+	2100 6450 2750 6450
+Connection ~ 2100 6450
+Wire Wire Line
+	2750 6450 3400 6450
+Connection ~ 2750 6450
+Wire Wire Line
+	3400 6450 4050 6450
+Connection ~ 3400 6450
+Connection ~ 4050 6450
+Wire Wire Line
+	4050 6450 4700 6450
+Connection ~ 4700 6450
+Wire Wire Line
+	4700 6450 5350 6450
+Wire Wire Line
+	5350 6450 6000 6450
+Connection ~ 5350 6450
+Wire Wire Line
+	6000 6450 6650 6450
+Connection ~ 6000 6450
+Wire Wire Line
+	6650 6450 7300 6450
+Connection ~ 6650 6450
+Wire Wire Line
+	7300 6450 8000 6450
+Connection ~ 7300 6450
+Wire Wire Line
+	8000 6450 8650 6450
+Connection ~ 8000 6450
 $EndSCHEMATC
