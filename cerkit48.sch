@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "cerkit 48 4x12 Ortholinear Keyboard"
 Date ""
-Rev ""
-Comp ""
+Rev "1.0"
+Comp "cerkit.com"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -1804,7 +1804,7 @@ U 1 1 5EF1EDAE
 P 2350 2100
 F 0 "J1" H 2308 2626 45  0000 C CNN
 F 1 "I2C" H 2308 2626 45  0001 C CNN
-F 2 "footprints:PIN_HEADER_I2C" H 2350 2600 20  0001 C CNN
+F 2 "cerkit48:PIN_HEADER_I2C" H 2350 2600 20  0001 C CNN
 F 3 "" H 2350 2100 50  0001 C CNN
 F 4 "CONN-08186" H 2308 2531 60  0000 C CNN "Field4"
 	1    2350 2100
