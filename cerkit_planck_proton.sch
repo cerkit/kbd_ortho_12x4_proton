@@ -14,14 +14,1757 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CherryMX:CherryMX SW?
+L CherryMX:CherryMX SW2
 U 1 1 5ECA820A
-P 2700 2050
-F 0 "SW?" H 2700 2335 50  0000 C CNN
-F 1 "CherryMX" H 2700 2244 50  0000 C CNN
-F 2 "" H 2700 2075 50  0001 C CNN
-F 3 "" H 2700 2075 50  0001 C CNN
-	1    2700 2050
+P 2200 4000
+F 0 "SW2" H 2200 4285 50  0000 C CNN
+F 1 "CherryMX" H 2200 4194 50  0000 C CNN
+F 2 "" H 2200 4025 50  0001 C CNN
+F 3 "" H 2200 4025 50  0001 C CNN
+	1    2200 4000
 	1    0    0    -1  
 $EndComp
+Text GLabel 1900 3900 1    50   Input ~ 0
+COL0
+$Comp
+L CherryMX:CherryMX SW14
+U 1 1 5ECDA7BF
+P 2200 4700
+F 0 "SW14" H 2200 4985 50  0000 C CNN
+F 1 "CherryMX" H 2200 4894 50  0000 C CNN
+F 2 "" H 2200 4725 50  0001 C CNN
+F 3 "" H 2200 4725 50  0001 C CNN
+	1    2200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D1
+U 1 1 5ECDB42D
+P 2400 4200
+F 0 "D1" V 2350 4400 50  0000 R CNN
+F 1 "1N4148" V 2350 4550 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2400 4025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2400 4200 50  0001 C CNN
+	1    2400 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D13
+U 1 1 5ED0CA42
+P 2400 4900
+F 0 "D13" V 2350 5100 50  0000 R CNN
+F 1 "1N4148" V 2350 5250 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2400 4725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2400 4900 50  0001 C CNN
+	1    2400 4900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1800 4350 0    50   Input ~ 0
+ROW0
+Text GLabel 1800 5050 0    50   Input ~ 0
+ROW1
+Wire Wire Line
+	2400 4000 2400 4050
+Wire Wire Line
+	1800 4350 2400 4350
+Wire Wire Line
+	1800 5050 2400 5050
+$Comp
+L CherryMX:CherryMX SW26
+U 1 1 5EDB44F9
+P 2200 5400
+F 0 "SW26" H 2200 5685 50  0000 C CNN
+F 1 "CherryMX" H 2200 5594 50  0000 C CNN
+F 2 "" H 2200 5425 50  0001 C CNN
+F 3 "" H 2200 5425 50  0001 C CNN
+	1    2200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D25
+U 1 1 5EDB459B
+P 2400 5600
+F 0 "D25" V 2350 5800 50  0000 R CNN
+F 1 "1N4148" V 2350 5950 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2400 5425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2400 5600 50  0001 C CNN
+	1    2400 5600
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1800 5750 0    50   Input ~ 0
+ROW1
+Wire Wire Line
+	1800 5750 2400 5750
+$Comp
+L CherryMX:CherryMX SW38
+U 1 1 5EDC48A8
+P 2200 6100
+F 0 "SW38" H 2200 6385 50  0000 C CNN
+F 1 "CherryMX" H 2200 6294 50  0000 C CNN
+F 2 "" H 2200 6125 50  0001 C CNN
+F 3 "" H 2200 6125 50  0001 C CNN
+	1    2200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D37
+U 1 1 5EDC494A
+P 2400 6300
+F 0 "D37" V 2350 6500 50  0000 R CNN
+F 1 "1N4148" V 2350 6650 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2400 6125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2400 6300 50  0001 C CNN
+	1    2400 6300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1800 6450 0    50   Input ~ 0
+ROW1
+Wire Wire Line
+	1800 6450 2400 6450
+Wire Wire Line
+	1900 3900 1900 4000
+Wire Wire Line
+	1900 6100 2000 6100
+Wire Wire Line
+	2000 5400 1900 5400
+Connection ~ 1900 5400
+Wire Wire Line
+	1900 5400 1900 6100
+Wire Wire Line
+	2000 4700 1900 4700
+Connection ~ 1900 4700
+Wire Wire Line
+	1900 4700 1900 5400
+Wire Wire Line
+	2000 4000 1900 4000
+Connection ~ 1900 4000
+Wire Wire Line
+	1900 4000 1900 4700
+$Comp
+L proton_c:proton_c U1
+U 1 1 5EF0AA12
+P 5450 1850
+F 0 "U1" H 5425 327 50  0000 C CNN
+F 1 "proton_c" H 5425 236 50  0000 C CNN
+F 2 "" H 5300 1850 50  0001 C CNN
+F 3 "" H 5300 1850 50  0001 C CNN
+	1    5450 1850
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 1950 0    50   Input ~ 0
+ROW0
+Text GLabel 4150 1850 0    50   Input ~ 0
+ROW1
+Text GLabel 4150 1750 0    50   Input ~ 0
+ROW2
+Text GLabel 4150 1650 0    50   Input ~ 0
+ROW3
+Text GLabel 6650 3150 2    50   Input ~ 0
+COL0
+Text GLabel 6650 3050 2    50   Input ~ 0
+COL1
+Text GLabel 6650 2950 2    50   Input ~ 0
+COL2
+Text GLabel 6650 2850 2    50   Input ~ 0
+COL3
+Text GLabel 6650 2750 2    50   Input ~ 0
+COL4
+Text GLabel 6650 1950 2    50   Input ~ 0
+COL5
+Text GLabel 6650 1850 2    50   Input ~ 0
+COL6
+Text GLabel 6650 1750 2    50   Input ~ 0
+COL7
+Text GLabel 6650 1650 2    50   Input ~ 0
+COL8
+Text GLabel 6650 1550 2    50   Input ~ 0
+COL9
+Text GLabel 6650 1450 2    50   Input ~ 0
+COL10
+Text GLabel 6650 1350 2    50   Input ~ 0
+COL11
+$Comp
+L Switch:SW_Push_Dual_x2 SW1
+U 1 1 5EF562D3
+P 7700 3250
+F 0 "SW1" V 7654 3398 50  0000 L CNN
+F 1 "SW_Push_Dual_x2" V 7745 3398 50  0001 L CNN
+F 2 "" H 7700 3450 50  0001 C CNN
+F 3 "~" H 7700 3450 50  0001 C CNN
+	1    7700 3250
+	0    1    1    0   
+$EndComp
+Text GLabel 6650 950  2    50   Input ~ 0
+GND1
+Text GLabel 7700 2950 1    50   Input ~ 0
+GND1
+Wire Wire Line
+	6450 3250 7100 3250
+Wire Wire Line
+	7100 3250 7100 3450
+Wire Wire Line
+	7100 3450 7700 3450
+Wire Wire Line
+	7700 3050 7700 2950
+Wire Wire Line
+	6450 3150 6650 3150
+Wire Wire Line
+	6450 3050 6650 3050
+Wire Wire Line
+	6450 2950 6650 2950
+Wire Wire Line
+	6450 2850 6650 2850
+Wire Wire Line
+	6450 2750 6650 2750
+Wire Wire Line
+	6450 1950 6650 1950
+Wire Wire Line
+	6450 1850 6650 1850
+Wire Wire Line
+	6450 1750 6650 1750
+Wire Wire Line
+	6450 1650 6650 1650
+Wire Wire Line
+	6450 1550 6650 1550
+Wire Wire Line
+	6450 1450 6650 1450
+Wire Wire Line
+	6450 1350 6650 1350
+Wire Wire Line
+	6450 950  6650 950 
+$Comp
+L SparkFun-Connectors:QWIIC_CONNECTORJS-1MM J1
+U 1 1 5EFE0071
+P 2400 2100
+F 0 "J1" H 2358 2710 45  0000 C CNN
+F 1 "QWIIC_CONNECTORJS-1MM" H 2358 2626 45  0000 C CNN
+F 2 "1X04_1MM_RA" H 2400 2600 20  0001 C CNN
+F 3 "" H 2400 2100 50  0001 C CNN
+F 4 "CONN-13694" H 2358 2531 60  0000 C CNN "Field4"
+	1    2400 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 2000 2    50   Input ~ 0
+VCC
+Text GLabel 6650 1150 2    50   Input ~ 0
+VCC
+Wire Wire Line
+	6450 1150 6650 1150
+Wire Wire Line
+	2600 2000 2500 2000
+Wire Wire Line
+	4150 1650 4400 1650
+Wire Wire Line
+	4150 1750 4400 1750
+Wire Wire Line
+	4150 1850 4400 1850
+Wire Wire Line
+	4150 1950 4400 1950
+NoConn ~ 6750 2150
+NoConn ~ 6750 2250
+NoConn ~ 6750 2350
+NoConn ~ 6750 2450
+NoConn ~ 4050 2750
+NoConn ~ 4050 2850
+NoConn ~ 4050 2950
+NoConn ~ 4050 3050
+NoConn ~ 4050 3150
+NoConn ~ 4050 3250
+NoConn ~ 4050 2300
+NoConn ~ 4050 1550
+NoConn ~ 4050 1450
+Text GLabel 2600 1800 2    50   Input ~ 0
+SCL
+Text GLabel 2600 1900 2    50   Input ~ 0
+SDA
+Text GLabel 2600 2100 2    50   Input ~ 0
+GND2
+Text GLabel 4150 1050 0    50   Input ~ 0
+GND2
+Wire Wire Line
+	4150 1050 4400 1050
+Wire Wire Line
+	4050 1450 4400 1450
+Wire Wire Line
+	4050 1550 4400 1550
+NoConn ~ 4050 1150
+NoConn ~ 4050 950 
+NoConn ~ 4050 850 
+Text GLabel 4150 1250 0    50   Input ~ 0
+SDA
+Text GLabel 4150 1350 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	4400 1250 4150 1250
+Wire Wire Line
+	4400 1350 4150 1350
+Wire Wire Line
+	4050 1150 4400 1150
+Wire Wire Line
+	4050 950  4400 950 
+Wire Wire Line
+	4050 850  4400 850 
+NoConn ~ 5050 550 
+NoConn ~ 5150 550 
+NoConn ~ 5250 550 
+NoConn ~ 5600 550 
+NoConn ~ 6700 850 
+NoConn ~ 6700 1050
+NoConn ~ 6700 1250
+Wire Wire Line
+	4050 2300 4400 2300
+Wire Wire Line
+	4050 2750 4400 2750
+Wire Wire Line
+	4050 2850 4400 2850
+Wire Wire Line
+	4050 2950 4400 2950
+Wire Wire Line
+	4050 3050 4400 3050
+Wire Wire Line
+	4050 3150 4400 3150
+Wire Wire Line
+	4050 3250 4400 3250
+Wire Wire Line
+	6750 2450 6450 2450
+Wire Wire Line
+	6750 2350 6450 2350
+Wire Wire Line
+	6750 2250 6450 2250
+Wire Wire Line
+	6750 2150 6450 2150
+Wire Wire Line
+	6700 1250 6450 1250
+Wire Wire Line
+	6700 1050 6450 1050
+Wire Wire Line
+	6700 850  6450 850 
+Wire Wire Line
+	2500 1800 2600 1800
+Wire Wire Line
+	2600 1900 2500 1900
+Wire Wire Line
+	2600 2100 2500 2100
+Wire Wire Line
+	2400 4750 2400 4700
+Wire Wire Line
+	2400 5450 2400 5400
+Wire Wire Line
+	2400 6150 2400 6100
+$Comp
+L CherryMX:CherryMX SW3
+U 1 1 5F3B869D
+P 2900 4000
+F 0 "SW3" H 2900 4285 50  0000 C CNN
+F 1 "CherryMX" H 2900 4194 50  0000 C CNN
+F 2 "" H 2900 4025 50  0001 C CNN
+F 3 "" H 2900 4025 50  0001 C CNN
+	1    2900 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 3900 1    50   Input ~ 0
+COL0
+$Comp
+L CherryMX:CherryMX SW15
+U 1 1 5F3B86A4
+P 2900 4700
+F 0 "SW15" H 2900 4985 50  0000 C CNN
+F 1 "CherryMX" H 2900 4894 50  0000 C CNN
+F 2 "" H 2900 4725 50  0001 C CNN
+F 3 "" H 2900 4725 50  0001 C CNN
+	1    2900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D2
+U 1 1 5F3B86AA
+P 3100 4200
+F 0 "D2" V 3050 4400 50  0000 R CNN
+F 1 "1N4148" V 3050 4550 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3100 4025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3100 4200 50  0001 C CNN
+	1    3100 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D14
+U 1 1 5F3B86B0
+P 3100 4900
+F 0 "D14" V 3050 5100 50  0000 R CNN
+F 1 "1N4148" V 3050 5250 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3100 4725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3100 4900 50  0001 C CNN
+	1    3100 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 4000 3100 4050
+$Comp
+L CherryMX:CherryMX SW27
+U 1 1 5F3B86B9
+P 2900 5400
+F 0 "SW27" H 2900 5685 50  0000 C CNN
+F 1 "CherryMX" H 2900 5594 50  0000 C CNN
+F 2 "" H 2900 5425 50  0001 C CNN
+F 3 "" H 2900 5425 50  0001 C CNN
+	1    2900 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D26
+U 1 1 5F3B86BF
+P 3100 5600
+F 0 "D26" V 3050 5800 50  0000 R CNN
+F 1 "1N4148" V 3050 5950 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3100 5425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3100 5600 50  0001 C CNN
+	1    3100 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CherryMX:CherryMX SW39
+U 1 1 5F3B86C6
+P 2900 6100
+F 0 "SW39" H 2900 6385 50  0000 C CNN
+F 1 "CherryMX" H 2900 6294 50  0000 C CNN
+F 2 "" H 2900 6125 50  0001 C CNN
+F 3 "" H 2900 6125 50  0001 C CNN
+	1    2900 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D38
+U 1 1 5F3B86CC
+P 3100 6300
+F 0 "D38" V 3050 6500 50  0000 R CNN
+F 1 "1N4148" V 3050 6650 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3100 6125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3100 6300 50  0001 C CNN
+	1    3100 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 3900 2600 4000
+Wire Wire Line
+	2600 6100 2700 6100
+Wire Wire Line
+	2700 5400 2600 5400
+Connection ~ 2600 5400
+Wire Wire Line
+	2600 5400 2600 6100
+Wire Wire Line
+	2700 4700 2600 4700
+Connection ~ 2600 4700
+Wire Wire Line
+	2600 4700 2600 5400
+Wire Wire Line
+	2700 4000 2600 4000
+Connection ~ 2600 4000
+Wire Wire Line
+	2600 4000 2600 4700
+Wire Wire Line
+	3100 4750 3100 4700
+Wire Wire Line
+	3100 5450 3100 5400
+Wire Wire Line
+	3100 6150 3100 6100
+$Comp
+L CherryMX:CherryMX SW4
+U 1 1 5F3C15F5
+P 3550 4000
+F 0 "SW4" H 3550 4285 50  0000 C CNN
+F 1 "CherryMX" H 3550 4194 50  0000 C CNN
+F 2 "" H 3550 4025 50  0001 C CNN
+F 3 "" H 3550 4025 50  0001 C CNN
+	1    3550 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3250 3900 1    50   Input ~ 0
+COL0
+$Comp
+L CherryMX:CherryMX SW16
+U 1 1 5F3C15FC
+P 3550 4700
+F 0 "SW16" H 3550 4985 50  0000 C CNN
+F 1 "CherryMX" H 3550 4894 50  0000 C CNN
+F 2 "" H 3550 4725 50  0001 C CNN
+F 3 "" H 3550 4725 50  0001 C CNN
+	1    3550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D3
+U 1 1 5F3C1602
+P 3750 4200
+F 0 "D3" V 3700 4400 50  0000 R CNN
+F 1 "1N4148" V 3700 4550 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3750 4025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3750 4200 50  0001 C CNN
+	1    3750 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D15
+U 1 1 5F3C1608
+P 3750 4900
+F 0 "D15" V 3700 5100 50  0000 R CNN
+F 1 "1N4148" V 3700 5250 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3750 4725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3750 4900 50  0001 C CNN
+	1    3750 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 4000 3750 4050
+$Comp
+L CherryMX:CherryMX SW28
+U 1 1 5F3C1611
+P 3550 5400
+F 0 "SW28" H 3550 5685 50  0000 C CNN
+F 1 "CherryMX" H 3550 5594 50  0000 C CNN
+F 2 "" H 3550 5425 50  0001 C CNN
+F 3 "" H 3550 5425 50  0001 C CNN
+	1    3550 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D27
+U 1 1 5F3C1617
+P 3750 5600
+F 0 "D27" V 3700 5800 50  0000 R CNN
+F 1 "1N4148" V 3700 5950 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3750 5425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3750 5600 50  0001 C CNN
+	1    3750 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CherryMX:CherryMX SW40
+U 1 1 5F3C161E
+P 3550 6100
+F 0 "SW40" H 3550 6385 50  0000 C CNN
+F 1 "CherryMX" H 3550 6294 50  0000 C CNN
+F 2 "" H 3550 6125 50  0001 C CNN
+F 3 "" H 3550 6125 50  0001 C CNN
+	1    3550 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D39
+U 1 1 5F3C1624
+P 3750 6300
+F 0 "D39" V 3700 6500 50  0000 R CNN
+F 1 "1N4148" V 3700 6650 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3750 6125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3750 6300 50  0001 C CNN
+	1    3750 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 3900 3250 4000
+Wire Wire Line
+	3250 6100 3350 6100
+Wire Wire Line
+	3350 5400 3250 5400
+Connection ~ 3250 5400
+Wire Wire Line
+	3250 5400 3250 6100
+Wire Wire Line
+	3350 4700 3250 4700
+Connection ~ 3250 4700
+Wire Wire Line
+	3250 4700 3250 5400
+Wire Wire Line
+	3350 4000 3250 4000
+Connection ~ 3250 4000
+Wire Wire Line
+	3250 4000 3250 4700
+Wire Wire Line
+	3750 4750 3750 4700
+Wire Wire Line
+	3750 5450 3750 5400
+Wire Wire Line
+	3750 6150 3750 6100
+$Comp
+L CherryMX:CherryMX SW5
+U 1 1 5F3C7CB9
+P 4200 4000
+F 0 "SW5" H 4200 4285 50  0000 C CNN
+F 1 "CherryMX" H 4200 4194 50  0000 C CNN
+F 2 "" H 4200 4025 50  0001 C CNN
+F 3 "" H 4200 4025 50  0001 C CNN
+	1    4200 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3900 3900 1    50   Input ~ 0
+COL0
+$Comp
+L CherryMX:CherryMX SW17
+U 1 1 5F3C7CC0
+P 4200 4700
+F 0 "SW17" H 4200 4985 50  0000 C CNN
+F 1 "CherryMX" H 4200 4894 50  0000 C CNN
+F 2 "" H 4200 4725 50  0001 C CNN
+F 3 "" H 4200 4725 50  0001 C CNN
+	1    4200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D4
+U 1 1 5F3C7CC6
+P 4400 4200
+F 0 "D4" V 4350 4400 50  0000 R CNN
+F 1 "1N4148" V 4350 4550 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4400 4025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4400 4200 50  0001 C CNN
+	1    4400 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D16
+U 1 1 5F3C7CCC
+P 4400 4900
+F 0 "D16" V 4350 5100 50  0000 R CNN
+F 1 "1N4148" V 4350 5250 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4400 4725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4400 4900 50  0001 C CNN
+	1    4400 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 4000 4400 4050
+$Comp
+L CherryMX:CherryMX SW29
+U 1 1 5F3C7CD5
+P 4200 5400
+F 0 "SW29" H 4200 5685 50  0000 C CNN
+F 1 "CherryMX" H 4200 5594 50  0000 C CNN
+F 2 "" H 4200 5425 50  0001 C CNN
+F 3 "" H 4200 5425 50  0001 C CNN
+	1    4200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D28
+U 1 1 5F3C7CDB
+P 4400 5600
+F 0 "D28" V 4350 5800 50  0000 R CNN
+F 1 "1N4148" V 4350 5950 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4400 5425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4400 5600 50  0001 C CNN
+	1    4400 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CherryMX:CherryMX SW41
+U 1 1 5F3C7CE2
+P 4200 6100
+F 0 "SW41" H 4200 6385 50  0000 C CNN
+F 1 "CherryMX" H 4200 6294 50  0000 C CNN
+F 2 "" H 4200 6125 50  0001 C CNN
+F 3 "" H 4200 6125 50  0001 C CNN
+	1    4200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D40
+U 1 1 5F3C7CE8
+P 4400 6300
+F 0 "D40" V 4350 6500 50  0000 R CNN
+F 1 "1N4148" V 4350 6650 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4400 6125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4400 6300 50  0001 C CNN
+	1    4400 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 3900 3900 4000
+Wire Wire Line
+	3900 6100 4000 6100
+Wire Wire Line
+	4000 5400 3900 5400
+Connection ~ 3900 5400
+Wire Wire Line
+	3900 5400 3900 6100
+Wire Wire Line
+	4000 4700 3900 4700
+Connection ~ 3900 4700
+Wire Wire Line
+	3900 4700 3900 5400
+Wire Wire Line
+	4000 4000 3900 4000
+Connection ~ 3900 4000
+Wire Wire Line
+	3900 4000 3900 4700
+Wire Wire Line
+	4400 4750 4400 4700
+Wire Wire Line
+	4400 5450 4400 5400
+Wire Wire Line
+	4400 6150 4400 6100
+$Comp
+L CherryMX:CherryMX SW6
+U 1 1 5F3D154D
+P 4850 4000
+F 0 "SW6" H 4850 4285 50  0000 C CNN
+F 1 "CherryMX" H 4850 4194 50  0000 C CNN
+F 2 "" H 4850 4025 50  0001 C CNN
+F 3 "" H 4850 4025 50  0001 C CNN
+	1    4850 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4550 3900 1    50   Input ~ 0
+COL0
+$Comp
+L CherryMX:CherryMX SW18
+U 1 1 5F3D1554
+P 4850 4700
+F 0 "SW18" H 4850 4985 50  0000 C CNN
+F 1 "CherryMX" H 4850 4894 50  0000 C CNN
+F 2 "" H 4850 4725 50  0001 C CNN
+F 3 "" H 4850 4725 50  0001 C CNN
+	1    4850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D5
+U 1 1 5F3D155A
+P 5050 4200
+F 0 "D5" V 5000 4400 50  0000 R CNN
+F 1 "1N4148" V 5000 4550 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5050 4025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5050 4200 50  0001 C CNN
+	1    5050 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D17
+U 1 1 5F3D1560
+P 5050 4900
+F 0 "D17" V 5000 5100 50  0000 R CNN
+F 1 "1N4148" V 5000 5250 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5050 4725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5050 4900 50  0001 C CNN
+	1    5050 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 4000 5050 4050
+$Comp
+L CherryMX:CherryMX SW30
+U 1 1 5F3D1569
+P 4850 5400
+F 0 "SW30" H 4850 5685 50  0000 C CNN
+F 1 "CherryMX" H 4850 5594 50  0000 C CNN
+F 2 "" H 4850 5425 50  0001 C CNN
+F 3 "" H 4850 5425 50  0001 C CNN
+	1    4850 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D29
+U 1 1 5F3D156F
+P 5050 5600
+F 0 "D29" V 5000 5800 50  0000 R CNN
+F 1 "1N4148" V 5000 5950 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5050 5425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5050 5600 50  0001 C CNN
+	1    5050 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CherryMX:CherryMX SW42
+U 1 1 5F3D1576
+P 4850 6100
+F 0 "SW42" H 4850 6385 50  0000 C CNN
+F 1 "CherryMX" H 4850 6294 50  0000 C CNN
+F 2 "" H 4850 6125 50  0001 C CNN
+F 3 "" H 4850 6125 50  0001 C CNN
+	1    4850 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D41
+U 1 1 5F3D157C
+P 5050 6300
+F 0 "D41" V 5000 6500 50  0000 R CNN
+F 1 "1N4148" V 5000 6650 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5050 6125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5050 6300 50  0001 C CNN
+	1    5050 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 3900 4550 4000
+Wire Wire Line
+	4550 6100 4650 6100
+Wire Wire Line
+	4650 5400 4550 5400
+Connection ~ 4550 5400
+Wire Wire Line
+	4550 5400 4550 6100
+Wire Wire Line
+	4650 4700 4550 4700
+Connection ~ 4550 4700
+Wire Wire Line
+	4550 4700 4550 5400
+Wire Wire Line
+	4650 4000 4550 4000
+Connection ~ 4550 4000
+Wire Wire Line
+	4550 4000 4550 4700
+Wire Wire Line
+	5050 4750 5050 4700
+Wire Wire Line
+	5050 5450 5050 5400
+Wire Wire Line
+	5050 6150 5050 6100
+$Comp
+L CherryMX:CherryMX SW7
+U 1 1 5F3DAD01
+P 5500 4000
+F 0 "SW7" H 5500 4285 50  0000 C CNN
+F 1 "CherryMX" H 5500 4194 50  0000 C CNN
+F 2 "" H 5500 4025 50  0001 C CNN
+F 3 "" H 5500 4025 50  0001 C CNN
+	1    5500 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 3900 1    50   Input ~ 0
+COL0
+$Comp
+L CherryMX:CherryMX SW19
+U 1 1 5F3DAD08
+P 5500 4700
+F 0 "SW19" H 5500 4985 50  0000 C CNN
+F 1 "CherryMX" H 5500 4894 50  0000 C CNN
+F 2 "" H 5500 4725 50  0001 C CNN
+F 3 "" H 5500 4725 50  0001 C CNN
+	1    5500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D6
+U 1 1 5F3DAD0E
+P 5700 4200
+F 0 "D6" V 5650 4400 50  0000 R CNN
+F 1 "1N4148" V 5650 4550 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5700 4025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5700 4200 50  0001 C CNN
+	1    5700 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D18
+U 1 1 5F3DAD14
+P 5700 4900
+F 0 "D18" V 5650 5100 50  0000 R CNN
+F 1 "1N4148" V 5650 5250 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5700 4725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5700 4900 50  0001 C CNN
+	1    5700 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 4000 5700 4050
+$Comp
+L CherryMX:CherryMX SW31
+U 1 1 5F3DAD1D
+P 5500 5400
+F 0 "SW31" H 5500 5685 50  0000 C CNN
+F 1 "CherryMX" H 5500 5594 50  0000 C CNN
+F 2 "" H 5500 5425 50  0001 C CNN
+F 3 "" H 5500 5425 50  0001 C CNN
+	1    5500 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D30
+U 1 1 5F3DAD23
+P 5700 5600
+F 0 "D30" V 5650 5800 50  0000 R CNN
+F 1 "1N4148" V 5650 5950 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5700 5425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5700 5600 50  0001 C CNN
+	1    5700 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CherryMX:CherryMX SW43
+U 1 1 5F3DAD2A
+P 5500 6100
+F 0 "SW43" H 5500 6385 50  0000 C CNN
+F 1 "CherryMX" H 5500 6294 50  0000 C CNN
+F 2 "" H 5500 6125 50  0001 C CNN
+F 3 "" H 5500 6125 50  0001 C CNN
+	1    5500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D42
+U 1 1 5F3DAD30
+P 5700 6300
+F 0 "D42" V 5650 6500 50  0000 R CNN
+F 1 "1N4148" V 5650 6650 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5700 6125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5700 6300 50  0001 C CNN
+	1    5700 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 3900 5200 4000
+Wire Wire Line
+	5200 6100 5300 6100
+Wire Wire Line
+	5300 5400 5200 5400
+Connection ~ 5200 5400
+Wire Wire Line
+	5200 5400 5200 6100
+Wire Wire Line
+	5300 4700 5200 4700
+Connection ~ 5200 4700
+Wire Wire Line
+	5200 4700 5200 5400
+Wire Wire Line
+	5300 4000 5200 4000
+Connection ~ 5200 4000
+Wire Wire Line
+	5200 4000 5200 4700
+Wire Wire Line
+	5700 4750 5700 4700
+Wire Wire Line
+	5700 5450 5700 5400
+Wire Wire Line
+	5700 6150 5700 6100
+$Comp
+L CherryMX:CherryMX SW8
+U 1 1 5F3E5E15
+P 6150 4000
+F 0 "SW8" H 6150 4285 50  0000 C CNN
+F 1 "CherryMX" H 6150 4194 50  0000 C CNN
+F 2 "" H 6150 4025 50  0001 C CNN
+F 3 "" H 6150 4025 50  0001 C CNN
+	1    6150 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 5850 3900 1    50   Input ~ 0
+COL0
+$Comp
+L CherryMX:CherryMX SW20
+U 1 1 5F3E5E1C
+P 6150 4700
+F 0 "SW20" H 6150 4985 50  0000 C CNN
+F 1 "CherryMX" H 6150 4894 50  0000 C CNN
+F 2 "" H 6150 4725 50  0001 C CNN
+F 3 "" H 6150 4725 50  0001 C CNN
+	1    6150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D7
+U 1 1 5F3E5E22
+P 6350 4200
+F 0 "D7" V 6300 4400 50  0000 R CNN
+F 1 "1N4148" V 6300 4550 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6350 4025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6350 4200 50  0001 C CNN
+	1    6350 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D19
+U 1 1 5F3E5E28
+P 6350 4900
+F 0 "D19" V 6300 5100 50  0000 R CNN
+F 1 "1N4148" V 6300 5250 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6350 4725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6350 4900 50  0001 C CNN
+	1    6350 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 4000 6350 4050
+$Comp
+L CherryMX:CherryMX SW32
+U 1 1 5F3E5E31
+P 6150 5400
+F 0 "SW32" H 6150 5685 50  0000 C CNN
+F 1 "CherryMX" H 6150 5594 50  0000 C CNN
+F 2 "" H 6150 5425 50  0001 C CNN
+F 3 "" H 6150 5425 50  0001 C CNN
+	1    6150 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D31
+U 1 1 5F3E5E37
+P 6350 5600
+F 0 "D31" V 6300 5800 50  0000 R CNN
+F 1 "1N4148" V 6300 5950 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6350 5425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6350 5600 50  0001 C CNN
+	1    6350 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CherryMX:CherryMX SW44
+U 1 1 5F3E5E3E
+P 6150 6100
+F 0 "SW44" H 6150 6385 50  0000 C CNN
+F 1 "CherryMX" H 6150 6294 50  0000 C CNN
+F 2 "" H 6150 6125 50  0001 C CNN
+F 3 "" H 6150 6125 50  0001 C CNN
+	1    6150 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D43
+U 1 1 5F3E5E44
+P 6350 6300
+F 0 "D43" V 6300 6500 50  0000 R CNN
+F 1 "1N4148" V 6300 6650 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6350 6125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6350 6300 50  0001 C CNN
+	1    6350 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 3900 5850 4000
+Wire Wire Line
+	5850 6100 5950 6100
+Wire Wire Line
+	5950 5400 5850 5400
+Connection ~ 5850 5400
+Wire Wire Line
+	5850 5400 5850 6100
+Wire Wire Line
+	5950 4700 5850 4700
+Connection ~ 5850 4700
+Wire Wire Line
+	5850 4700 5850 5400
+Wire Wire Line
+	5950 4000 5850 4000
+Connection ~ 5850 4000
+Wire Wire Line
+	5850 4000 5850 4700
+Wire Wire Line
+	6350 4750 6350 4700
+Wire Wire Line
+	6350 5450 6350 5400
+Wire Wire Line
+	6350 6150 6350 6100
+$Comp
+L CherryMX:CherryMX SW9
+U 1 1 5F3F15AB
+P 6800 4000
+F 0 "SW9" H 6800 4285 50  0000 C CNN
+F 1 "CherryMX" H 6800 4194 50  0000 C CNN
+F 2 "" H 6800 4025 50  0001 C CNN
+F 3 "" H 6800 4025 50  0001 C CNN
+	1    6800 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 6500 3900 1    50   Input ~ 0
+COL0
+$Comp
+L CherryMX:CherryMX SW21
+U 1 1 5F3F15B2
+P 6800 4700
+F 0 "SW21" H 6800 4985 50  0000 C CNN
+F 1 "CherryMX" H 6800 4894 50  0000 C CNN
+F 2 "" H 6800 4725 50  0001 C CNN
+F 3 "" H 6800 4725 50  0001 C CNN
+	1    6800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D8
+U 1 1 5F3F15B8
+P 7000 4200
+F 0 "D8" V 6950 4400 50  0000 R CNN
+F 1 "1N4148" V 6950 4550 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7000 4025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7000 4200 50  0001 C CNN
+	1    7000 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D20
+U 1 1 5F3F15BE
+P 7000 4900
+F 0 "D20" V 6950 5100 50  0000 R CNN
+F 1 "1N4148" V 6950 5250 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7000 4725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7000 4900 50  0001 C CNN
+	1    7000 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7000 4000 7000 4050
+$Comp
+L CherryMX:CherryMX SW33
+U 1 1 5F3F15C7
+P 6800 5400
+F 0 "SW33" H 6800 5685 50  0000 C CNN
+F 1 "CherryMX" H 6800 5594 50  0000 C CNN
+F 2 "" H 6800 5425 50  0001 C CNN
+F 3 "" H 6800 5425 50  0001 C CNN
+	1    6800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D32
+U 1 1 5F3F15CD
+P 7000 5600
+F 0 "D32" V 6950 5800 50  0000 R CNN
+F 1 "1N4148" V 6950 5950 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7000 5425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7000 5600 50  0001 C CNN
+	1    7000 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CherryMX:CherryMX SW45
+U 1 1 5F3F15D4
+P 6800 6100
+F 0 "SW45" H 6800 6385 50  0000 C CNN
+F 1 "CherryMX" H 6800 6294 50  0000 C CNN
+F 2 "" H 6800 6125 50  0001 C CNN
+F 3 "" H 6800 6125 50  0001 C CNN
+	1    6800 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D44
+U 1 1 5F3F15DA
+P 7000 6300
+F 0 "D44" V 6950 6500 50  0000 R CNN
+F 1 "1N4148" V 6950 6650 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7000 6125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7000 6300 50  0001 C CNN
+	1    7000 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 3900 6500 4000
+Wire Wire Line
+	6500 6100 6600 6100
+Wire Wire Line
+	6600 5400 6500 5400
+Connection ~ 6500 5400
+Wire Wire Line
+	6500 5400 6500 6100
+Wire Wire Line
+	6600 4700 6500 4700
+Connection ~ 6500 4700
+Wire Wire Line
+	6500 4700 6500 5400
+Wire Wire Line
+	6600 4000 6500 4000
+Connection ~ 6500 4000
+Wire Wire Line
+	6500 4000 6500 4700
+Wire Wire Line
+	7000 4750 7000 4700
+Wire Wire Line
+	7000 5450 7000 5400
+Wire Wire Line
+	7000 6150 7000 6100
+$Comp
+L CherryMX:CherryMX SW10
+U 1 1 5F3FE585
+P 7450 4000
+F 0 "SW10" H 7450 4285 50  0000 C CNN
+F 1 "CherryMX" H 7450 4194 50  0000 C CNN
+F 2 "" H 7450 4025 50  0001 C CNN
+F 3 "" H 7450 4025 50  0001 C CNN
+	1    7450 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 7150 3900 1    50   Input ~ 0
+COL0
+$Comp
+L CherryMX:CherryMX SW22
+U 1 1 5F3FE58C
+P 7450 4700
+F 0 "SW22" H 7450 4985 50  0000 C CNN
+F 1 "CherryMX" H 7450 4894 50  0000 C CNN
+F 2 "" H 7450 4725 50  0001 C CNN
+F 3 "" H 7450 4725 50  0001 C CNN
+	1    7450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D9
+U 1 1 5F3FE592
+P 7650 4200
+F 0 "D9" V 7600 4400 50  0000 R CNN
+F 1 "1N4148" V 7600 4550 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7650 4025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7650 4200 50  0001 C CNN
+	1    7650 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D21
+U 1 1 5F3FE598
+P 7650 4900
+F 0 "D21" V 7600 5100 50  0000 R CNN
+F 1 "1N4148" V 7600 5250 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7650 4725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7650 4900 50  0001 C CNN
+	1    7650 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 4000 7650 4050
+$Comp
+L CherryMX:CherryMX SW34
+U 1 1 5F3FE5A1
+P 7450 5400
+F 0 "SW34" H 7450 5685 50  0000 C CNN
+F 1 "CherryMX" H 7450 5594 50  0000 C CNN
+F 2 "" H 7450 5425 50  0001 C CNN
+F 3 "" H 7450 5425 50  0001 C CNN
+	1    7450 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D33
+U 1 1 5F3FE5A7
+P 7650 5600
+F 0 "D33" V 7600 5800 50  0000 R CNN
+F 1 "1N4148" V 7600 5950 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7650 5425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7650 5600 50  0001 C CNN
+	1    7650 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CherryMX:CherryMX SW46
+U 1 1 5F3FE5AE
+P 7450 6100
+F 0 "SW46" H 7450 6385 50  0000 C CNN
+F 1 "CherryMX" H 7450 6294 50  0000 C CNN
+F 2 "" H 7450 6125 50  0001 C CNN
+F 3 "" H 7450 6125 50  0001 C CNN
+	1    7450 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D45
+U 1 1 5F3FE5B4
+P 7650 6300
+F 0 "D45" V 7600 6500 50  0000 R CNN
+F 1 "1N4148" V 7600 6650 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7650 6125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7650 6300 50  0001 C CNN
+	1    7650 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 3900 7150 4000
+Wire Wire Line
+	7150 6100 7250 6100
+Wire Wire Line
+	7250 5400 7150 5400
+Connection ~ 7150 5400
+Wire Wire Line
+	7150 5400 7150 6100
+Wire Wire Line
+	7250 4700 7150 4700
+Connection ~ 7150 4700
+Wire Wire Line
+	7150 4700 7150 5400
+Wire Wire Line
+	7250 4000 7150 4000
+Connection ~ 7150 4000
+Wire Wire Line
+	7150 4000 7150 4700
+Wire Wire Line
+	7650 4750 7650 4700
+Wire Wire Line
+	7650 5450 7650 5400
+Wire Wire Line
+	7650 6150 7650 6100
+$Comp
+L CherryMX:CherryMX SW11
+U 1 1 5F40B885
+P 8100 4000
+F 0 "SW11" H 8100 4285 50  0000 C CNN
+F 1 "CherryMX" H 8100 4194 50  0000 C CNN
+F 2 "" H 8100 4025 50  0001 C CNN
+F 3 "" H 8100 4025 50  0001 C CNN
+	1    8100 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 3900 1    50   Input ~ 0
+COL0
+$Comp
+L CherryMX:CherryMX SW23
+U 1 1 5F40B88C
+P 8100 4700
+F 0 "SW23" H 8100 4985 50  0000 C CNN
+F 1 "CherryMX" H 8100 4894 50  0000 C CNN
+F 2 "" H 8100 4725 50  0001 C CNN
+F 3 "" H 8100 4725 50  0001 C CNN
+	1    8100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D10
+U 1 1 5F40B892
+P 8300 4200
+F 0 "D10" V 8250 4400 50  0000 R CNN
+F 1 "1N4148" V 8250 4550 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8300 4025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8300 4200 50  0001 C CNN
+	1    8300 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D22
+U 1 1 5F40B898
+P 8300 4900
+F 0 "D22" V 8250 5100 50  0000 R CNN
+F 1 "1N4148" V 8250 5250 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8300 4725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8300 4900 50  0001 C CNN
+	1    8300 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 4000 8300 4050
+Wire Wire Line
+	7700 4350 8300 4350
+Wire Wire Line
+	7700 5050 8300 5050
+$Comp
+L CherryMX:CherryMX SW35
+U 1 1 5F40B8A1
+P 8100 5400
+F 0 "SW35" H 8100 5685 50  0000 C CNN
+F 1 "CherryMX" H 8100 5594 50  0000 C CNN
+F 2 "" H 8100 5425 50  0001 C CNN
+F 3 "" H 8100 5425 50  0001 C CNN
+	1    8100 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D34
+U 1 1 5F40B8A7
+P 8300 5600
+F 0 "D34" V 8250 5800 50  0000 R CNN
+F 1 "1N4148" V 8250 5950 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8300 5425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8300 5600 50  0001 C CNN
+	1    8300 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 5750 8300 5750
+$Comp
+L CherryMX:CherryMX SW47
+U 1 1 5F40B8AE
+P 8100 6100
+F 0 "SW47" H 8100 6385 50  0000 C CNN
+F 1 "CherryMX" H 8100 6294 50  0000 C CNN
+F 2 "" H 8100 6125 50  0001 C CNN
+F 3 "" H 8100 6125 50  0001 C CNN
+	1    8100 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D46
+U 1 1 5F40B8B4
+P 8300 6300
+F 0 "D46" V 8250 6500 50  0000 R CNN
+F 1 "1N4148" V 8250 6650 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8300 6125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8300 6300 50  0001 C CNN
+	1    8300 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 3900 7800 4000
+Wire Wire Line
+	7800 6100 7900 6100
+Wire Wire Line
+	7900 5400 7800 5400
+Connection ~ 7800 5400
+Wire Wire Line
+	7800 5400 7800 6100
+Wire Wire Line
+	7900 4700 7800 4700
+Connection ~ 7800 4700
+Wire Wire Line
+	7800 4700 7800 5400
+Wire Wire Line
+	7900 4000 7800 4000
+Connection ~ 7800 4000
+Wire Wire Line
+	7800 4000 7800 4700
+Wire Wire Line
+	8300 4750 8300 4700
+Wire Wire Line
+	8300 5450 8300 5400
+Wire Wire Line
+	8300 6150 8300 6100
+$Comp
+L CherryMX:CherryMX SW12
+U 1 1 5F41A5E1
+P 8750 4000
+F 0 "SW12" H 8750 4285 50  0000 C CNN
+F 1 "CherryMX" H 8750 4194 50  0000 C CNN
+F 2 "" H 8750 4025 50  0001 C CNN
+F 3 "" H 8750 4025 50  0001 C CNN
+	1    8750 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 8450 3900 1    50   Input ~ 0
+COL0
+$Comp
+L CherryMX:CherryMX SW24
+U 1 1 5F41A5E8
+P 8750 4700
+F 0 "SW24" H 8750 4985 50  0000 C CNN
+F 1 "CherryMX" H 8750 4894 50  0000 C CNN
+F 2 "" H 8750 4725 50  0001 C CNN
+F 3 "" H 8750 4725 50  0001 C CNN
+	1    8750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D11
+U 1 1 5F41A5EE
+P 8950 4200
+F 0 "D11" V 8900 4400 50  0000 R CNN
+F 1 "1N4148" V 8900 4550 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8950 4025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8950 4200 50  0001 C CNN
+	1    8950 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D23
+U 1 1 5F41A5F4
+P 8950 4900
+F 0 "D23" V 8900 5100 50  0000 R CNN
+F 1 "1N4148" V 8900 5250 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8950 4725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8950 4900 50  0001 C CNN
+	1    8950 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8950 4000 8950 4050
+$Comp
+L CherryMX:CherryMX SW36
+U 1 1 5F41A5FD
+P 8750 5400
+F 0 "SW36" H 8750 5685 50  0000 C CNN
+F 1 "CherryMX" H 8750 5594 50  0000 C CNN
+F 2 "" H 8750 5425 50  0001 C CNN
+F 3 "" H 8750 5425 50  0001 C CNN
+	1    8750 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D35
+U 1 1 5F41A603
+P 8950 5600
+F 0 "D35" V 8900 5800 50  0000 R CNN
+F 1 "1N4148" V 8900 5950 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8950 5425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8950 5600 50  0001 C CNN
+	1    8950 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CherryMX:CherryMX SW48
+U 1 1 5F41A60A
+P 8750 6100
+F 0 "SW48" H 8750 6385 50  0000 C CNN
+F 1 "CherryMX" H 8750 6294 50  0000 C CNN
+F 2 "" H 8750 6125 50  0001 C CNN
+F 3 "" H 8750 6125 50  0001 C CNN
+	1    8750 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D47
+U 1 1 5F41A610
+P 8950 6300
+F 0 "D47" V 8900 6500 50  0000 R CNN
+F 1 "1N4148" V 8900 6650 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8950 6125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8950 6300 50  0001 C CNN
+	1    8950 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8450 3900 8450 4000
+Wire Wire Line
+	8450 6100 8550 6100
+Wire Wire Line
+	8550 5400 8450 5400
+Connection ~ 8450 5400
+Wire Wire Line
+	8450 5400 8450 6100
+Wire Wire Line
+	8550 4700 8450 4700
+Connection ~ 8450 4700
+Wire Wire Line
+	8450 4700 8450 5400
+Wire Wire Line
+	8550 4000 8450 4000
+Connection ~ 8450 4000
+Wire Wire Line
+	8450 4000 8450 4700
+Wire Wire Line
+	8950 4750 8950 4700
+Wire Wire Line
+	8950 5450 8950 5400
+Wire Wire Line
+	8950 6150 8950 6100
+$Comp
+L CherryMX:CherryMX SW13
+U 1 1 5F428ADD
+P 9400 4000
+F 0 "SW13" H 9400 4285 50  0000 C CNN
+F 1 "CherryMX" H 9400 4194 50  0000 C CNN
+F 2 "" H 9400 4025 50  0001 C CNN
+F 3 "" H 9400 4025 50  0001 C CNN
+	1    9400 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 9100 3900 1    50   Input ~ 0
+COL0
+$Comp
+L CherryMX:CherryMX SW25
+U 1 1 5F428AE4
+P 9400 4700
+F 0 "SW25" H 9400 4985 50  0000 C CNN
+F 1 "CherryMX" H 9400 4894 50  0000 C CNN
+F 2 "" H 9400 4725 50  0001 C CNN
+F 3 "" H 9400 4725 50  0001 C CNN
+	1    9400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D12
+U 1 1 5F428AEA
+P 9600 4200
+F 0 "D12" V 9550 4400 50  0000 R CNN
+F 1 "1N4148" V 9550 4550 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9600 4025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9600 4200 50  0001 C CNN
+	1    9600 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D24
+U 1 1 5F428AF0
+P 9600 4900
+F 0 "D24" V 9550 5100 50  0000 R CNN
+F 1 "1N4148" V 9550 5250 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9600 4725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9600 4900 50  0001 C CNN
+	1    9600 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9600 4000 9600 4050
+$Comp
+L CherryMX:CherryMX SW37
+U 1 1 5F428AF9
+P 9400 5400
+F 0 "SW37" H 9400 5685 50  0000 C CNN
+F 1 "CherryMX" H 9400 5594 50  0000 C CNN
+F 2 "" H 9400 5425 50  0001 C CNN
+F 3 "" H 9400 5425 50  0001 C CNN
+	1    9400 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D36
+U 1 1 5F428AFF
+P 9600 5600
+F 0 "D36" V 9550 5800 50  0000 R CNN
+F 1 "1N4148" V 9550 5950 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9600 5425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9600 5600 50  0001 C CNN
+	1    9600 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CherryMX:CherryMX SW49
+U 1 1 5F428B06
+P 9400 6100
+F 0 "SW49" H 9400 6385 50  0000 C CNN
+F 1 "CherryMX" H 9400 6294 50  0000 C CNN
+F 2 "" H 9400 6125 50  0001 C CNN
+F 3 "" H 9400 6125 50  0001 C CNN
+	1    9400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D48
+U 1 1 5F428B0C
+P 9600 6300
+F 0 "D48" V 9550 6500 50  0000 R CNN
+F 1 "1N4148" V 9550 6650 50  0001 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9600 6125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9600 6300 50  0001 C CNN
+	1    9600 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9100 3900 9100 4000
+Wire Wire Line
+	9100 6100 9200 6100
+Wire Wire Line
+	9200 5400 9100 5400
+Connection ~ 9100 5400
+Wire Wire Line
+	9100 5400 9100 6100
+Wire Wire Line
+	9200 4700 9100 4700
+Connection ~ 9100 4700
+Wire Wire Line
+	9100 4700 9100 5400
+Wire Wire Line
+	9200 4000 9100 4000
+Connection ~ 9100 4000
+Wire Wire Line
+	9100 4000 9100 4700
+Wire Wire Line
+	9600 4750 9600 4700
+Wire Wire Line
+	9600 5450 9600 5400
+Wire Wire Line
+	9600 6150 9600 6100
+Wire Wire Line
+	8950 4350 9600 4350
+Connection ~ 8950 4350
+Wire Wire Line
+	8950 5050 9600 5050
+Connection ~ 8950 5050
+Wire Wire Line
+	8950 5750 9600 5750
+Connection ~ 8950 5750
+Wire Wire Line
+	8950 6450 9600 6450
+Connection ~ 8950 6450
+Wire Wire Line
+	8300 4350 8950 4350
+Connection ~ 8300 4350
+Wire Wire Line
+	8300 5050 8950 5050
+Connection ~ 8300 5050
+Wire Wire Line
+	8300 5750 8950 5750
+Connection ~ 8300 5750
+Wire Wire Line
+	8300 6450 8950 6450
+Connection ~ 8300 6450
+Wire Wire Line
+	7650 6450 8300 6450
+Connection ~ 7650 6450
+Wire Wire Line
+	7000 6450 7650 6450
+Connection ~ 7000 6450
+Wire Wire Line
+	6350 6450 7000 6450
+Connection ~ 6350 6450
+Wire Wire Line
+	7000 5750 7650 5750
+Connection ~ 7000 5750
+Wire Wire Line
+	7000 5050 7650 5050
+Connection ~ 7000 5050
+Wire Wire Line
+	7000 4350 7650 4350
+Connection ~ 7000 4350
+Wire Wire Line
+	6350 4350 7000 4350
+Connection ~ 6350 4350
+Wire Wire Line
+	6350 5050 7000 5050
+Connection ~ 6350 5050
+Wire Wire Line
+	6350 5750 7000 5750
+Connection ~ 6350 5750
+Wire Wire Line
+	5700 6450 6350 6450
+Connection ~ 5700 6450
+Wire Wire Line
+	5700 5750 6350 5750
+Connection ~ 5700 5750
+Wire Wire Line
+	5700 5050 6350 5050
+Connection ~ 5700 5050
+Wire Wire Line
+	5700 4350 6350 4350
+Connection ~ 5700 4350
+Wire Wire Line
+	5050 4350 5700 4350
+Connection ~ 5050 4350
+Wire Wire Line
+	5050 5050 5700 5050
+Connection ~ 5050 5050
+Wire Wire Line
+	5050 5750 5700 5750
+Connection ~ 5050 5750
+Wire Wire Line
+	5050 6450 5700 6450
+Connection ~ 5050 6450
+Wire Wire Line
+	4400 6450 5050 6450
+Connection ~ 4400 6450
+Wire Wire Line
+	4400 5750 5050 5750
+Connection ~ 4400 5750
+Wire Wire Line
+	4400 5050 5050 5050
+Connection ~ 4400 5050
+Wire Wire Line
+	4400 4350 5050 4350
+Connection ~ 4400 4350
+Wire Wire Line
+	3750 4350 4400 4350
+Connection ~ 3750 4350
+Wire Wire Line
+	3750 5050 4400 5050
+Connection ~ 3750 5050
+Wire Wire Line
+	3750 5750 4400 5750
+Connection ~ 3750 5750
+Wire Wire Line
+	3750 6450 4400 6450
+Connection ~ 3750 6450
+Wire Wire Line
+	3100 6450 3750 6450
+Connection ~ 3100 6450
+Wire Wire Line
+	3100 5750 3750 5750
+Connection ~ 3100 5750
+Wire Wire Line
+	3100 5050 3750 5050
+Connection ~ 3100 5050
+Wire Wire Line
+	3100 4350 3750 4350
+Connection ~ 3100 4350
+Wire Wire Line
+	2400 4350 3100 4350
+Connection ~ 2400 4350
+Wire Wire Line
+	2400 5050 3100 5050
+Connection ~ 2400 5050
+Wire Wire Line
+	2400 5750 3100 5750
+Connection ~ 2400 5750
+Wire Wire Line
+	2400 6450 3100 6450
+Connection ~ 2400 6450
 $EndSCHEMATC
