@@ -30,7 +30,7 @@ Here are the pin connections:
 * Col 10: A0
 * Col 11: A1
 
-I don't have the boards, yet, so I haven't even started the QMK firmware changes.
+I've created the board as [cerkit48 in my GitHub branch for qmk_firmware](https://github.com/cerkit/qmk_firmware)
 
 Special thanks to [@tzarc](https://github.com/tzarc), [D3vastat0r](https://github.com/covah901), and [zvecr](https://github.com/zvecr) for answering my questions on the QMK Discord.
 
