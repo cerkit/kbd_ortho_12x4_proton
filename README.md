@@ -32,6 +32,10 @@ Here are the pin connections:
 
 I've created the board firmware as [cerkit48 in my GitHub branch for qmk_firmware](https://github.com/cerkit/qmk_firmware)
 
+Make example for this keyboard (after setting up your build environment):
+
+    make cerkit48:default
+
 Special thanks to [@tzarc](https://github.com/tzarc), [D3vastat0r](https://github.com/covah901), and [zvecr](https://github.com/zvecr) for answering my questions on the QMK Discord.
 
 ![cerkit ortho with Proton C front](https://github.com/cerkit/kbd_ortho_12x4_proton/blob/master/cerkit_planck_proton_front_copper.png?raw=true)
