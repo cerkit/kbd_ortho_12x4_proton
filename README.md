@@ -5,9 +5,9 @@
 
  This hasn't been tested.
 
- It has a Qwiic connector (for I2C integration) to the left of the proton. The connector can be purchased from Sparkfun. It's the only surface mount component on the board. It's connected to the I2C1 pins on B6 and B7 of the Proton.
+ It has a pin header for I2C integration to the left of the proton. It's connected to the I2C1 pins on B6 and B7 of the Proton.
 
- [Qwiic connector](https://www.sparkfun.com/products/14417)
+ There's a reset button on the right side of the board.
 
  [Reset button](https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf)
 
