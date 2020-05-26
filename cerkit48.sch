@@ -24,35 +24,33 @@ F 3 "" H 4950 1850 50  0001 C CNN
 	1    5100 1850
 	1    0    0    -1  
 $EndComp
-Text GLabel 3800 1650 0    50   Input ~ 0
-ROW0
-Text GLabel 3800 1750 0    50   Input ~ 0
-ROW1
-Text GLabel 3800 1850 0    50   Input ~ 0
-ROW2
-Text GLabel 3800 1950 0    50   Input ~ 0
-ROW3
-Text GLabel 6300 1350 2    50   Input ~ 0
-COL1
-Text GLabel 6300 1450 2    50   Input ~ 0
-COL2
-Text GLabel 6300 1550 2    50   Input ~ 0
-COL3
 Text GLabel 6300 1650 2    50   Input ~ 0
-COL4
+ROW0
 Text GLabel 6300 1750 2    50   Input ~ 0
-COL5
+ROW1
 Text GLabel 6300 1850 2    50   Input ~ 0
-COL6
-Text GLabel 6300 1950 2    50   Input ~ 0
-COL7
+ROW2
 Text GLabel 6300 2750 2    50   Input ~ 0
+ROW3
+Text GLabel 3800 1350 0    50   Input ~ 0
+COL1
+Text GLabel 3800 1450 0    50   Input ~ 0
+COL2
+Text GLabel 3800 1550 0    50   Input ~ 0
+COL3
+Text GLabel 3800 1650 0    50   Input ~ 0
+COL4
+Text GLabel 3800 1750 0    50   Input ~ 0
+COL5
+Text GLabel 3800 1850 0    50   Input ~ 0
+COL6
+Text GLabel 3700 2950 0    50   Input ~ 0
 COL8
-Text GLabel 6300 2850 2    50   Input ~ 0
+Text GLabel 3700 3050 0    50   Input ~ 0
 COL9
-Text GLabel 6300 2950 2    50   Input ~ 0
+Text GLabel 3700 3150 0    50   Input ~ 0
 COL10
-Text GLabel 6300 3050 2    50   Input ~ 0
+Text GLabel 3700 3250 0    50   Input ~ 0
 COL11
 Wire Wire Line
 	6100 3150 6300 3150
@@ -78,7 +76,7 @@ Wire Wire Line
 	6100 1450 6300 1450
 Wire Wire Line
 	6100 1350 6300 1350
-Text GLabel 2900 2050 2    50   Input ~ 0
+Text GLabel 2900 1500 0    50   Input ~ 0
 3.3V
 Text GLabel 6300 1150 2    50   Input ~ 0
 3.3V
@@ -94,26 +92,16 @@ Wire Wire Line
 	3800 1950 4050 1950
 NoConn ~ 3700 2750
 NoConn ~ 3700 2850
-NoConn ~ 3700 2950
-NoConn ~ 3700 3050
-NoConn ~ 3700 3150
-NoConn ~ 3700 3250
 NoConn ~ 3700 2300
-NoConn ~ 3700 1550
-NoConn ~ 3700 1450
-Text GLabel 2900 1850 2    50   Input ~ 0
+Text GLabel 2900 1300 0    50   Input ~ 0
 SCL
-Text GLabel 2900 1950 2    50   Input ~ 0
+Text GLabel 2900 1400 0    50   Input ~ 0
 SDA
-Wire Wire Line
-	3700 1450 4050 1450
-Wire Wire Line
-	3700 1550 4050 1550
 NoConn ~ 3700 950 
 NoConn ~ 3700 850 
-Text GLabel 3800 1250 0    50   Input ~ 0
+Text GLabel 6300 1950 2    50   Input ~ 0
 SDA
-Text GLabel 3800 1350 0    50   Input ~ 0
+Text GLabel 6300 1550 2    50   Input ~ 0
 SCL
 Wire Wire Line
 	4050 1250 3800 1250
@@ -135,14 +123,6 @@ Wire Wire Line
 	3700 2750 4050 2750
 Wire Wire Line
 	3700 2850 4050 2850
-Wire Wire Line
-	3700 2950 4050 2950
-Wire Wire Line
-	3700 3050 4050 3050
-Wire Wire Line
-	3700 3150 4050 3150
-Wire Wire Line
-	3700 3250 4050 3250
 Wire Wire Line
 	6350 1050 6100 1050
 Wire Wire Line
@@ -185,16 +165,14 @@ Connection ~ 3450 1150
 $Comp
 L power:GND #PWR03
 U 1 1 5ED88422
-P 3000 2250
-F 0 "#PWR03" H 3000 2000 50  0001 C CNN
-F 1 "GND" H 3005 2077 50  0000 C CNN
-F 2 "" H 3000 2250 50  0001 C CNN
-F 3 "" H 3000 2250 50  0001 C CNN
-	1    3000 2250
+P 2750 1750
+F 0 "#PWR03" H 2750 1500 50  0001 C CNN
+F 1 "GND" H 2755 1577 50  0000 C CNN
+F 2 "" H 2750 1750 50  0001 C CNN
+F 3 "" H 2750 1750 50  0001 C CNN
+	1    2750 1750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3000 2150 3000 2250
 Wire Wire Line
 	6400 2150 6100 2150
 Wire Wire Line
@@ -208,25 +186,17 @@ NoConn ~ 6400 2350
 NoConn ~ 6400 2250
 NoConn ~ 6400 2150
 $Comp
-L SparkFun-Connectors:CONN_04POLAR J1
+L Connector:Conn_01x04_Male J1
 U 1 1 5EF1EDAE
-P 2650 2150
-F 0 "J1" H 2608 2676 45  0000 C CNN
-F 1 "I2C" H 2608 2676 45  0001 C CNN
-F 2 "cerkit48:PIN_HEADER_I2C" H 2650 2650 20  0001 C CNN
-F 3 "" H 2650 2150 50  0001 C CNN
-F 4 "CONN-08186" H 2608 2581 60  0000 C CNN "Field4"
-	1    2650 2150
-	1    0    0    -1  
+P 3100 1500
+F 0 "J1" H 3250 1050 45  0000 C CNN
+F 1 "I2C" H 3058 2026 45  0001 C CNN
+F 2 "cerkit48:PIN_HEADER_I2C" H 3100 2000 20  0001 C CNN
+F 3 "" H 3100 1500 50  0001 C CNN
+F 4 "CONN-08186" H 3300 1200 60  0000 C CNN "Field4"
+	1    3100 1500
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2900 1850 2750 1850
-Wire Wire Line
-	2750 1950 2900 1950
-Wire Wire Line
-	2750 2050 2900 2050
-Wire Wire Line
-	2750 2150 3000 2150
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5EFA9DB5
@@ -1741,8 +1711,26 @@ Wire Wire Line
 Connection ~ 7400 3900
 Wire Wire Line
 	7400 3900 7400 4600
-Text GLabel 6300 1250 2    50   Input ~ 0
+Text GLabel 3800 1250 0    50   Input ~ 0
 COL0
 Wire Wire Line
 	6300 1250 6100 1250
+Text GLabel 3800 1950 0    50   Input ~ 0
+COL7
+Wire Wire Line
+	3700 3250 4050 3250
+Wire Wire Line
+	3700 3150 4050 3150
+Wire Wire Line
+	3700 3050 4050 3050
+Wire Wire Line
+	3700 2950 4050 2950
+Wire Wire Line
+	3800 1450 4050 1450
+Wire Wire Line
+	3800 1550 4050 1550
+Wire Wire Line
+	2900 1600 2750 1600
+Wire Wire Line
+	2750 1600 2750 1750
 $EndSCHEMATC
