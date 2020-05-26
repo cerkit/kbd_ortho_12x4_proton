@@ -56,23 +56,6 @@ Text GLabel 6300 1450 2    50   Input ~ 0
 COL10
 Text GLabel 6300 1350 2    50   Input ~ 0
 COL11
-$Comp
-L Switch:SW_Push_Dual_x2 SW1
-U 1 1 5EF562D3
-P 7100 3150
-F 0 "SW1" V 7054 3298 50  0000 L CNN
-F 1 "SW_Push_Dual_x2" V 7145 3298 50  0001 L CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 7100 3350 50  0001 C CNN
-F 3 "~" H 7100 3350 50  0001 C CNN
-	1    7100 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 3250 6750 3250
-Wire Wire Line
-	6750 3250 6750 3450
-Wire Wire Line
-	6750 3450 7350 3450
 Wire Wire Line
 	6100 3150 6300 3150
 Wire Wire Line
@@ -169,23 +152,6 @@ Wire Wire Line
 	6350 1050 6100 1050
 Wire Wire Line
 	6350 850  6100 850 
-$Comp
-L power:GND #PWR04
-U 1 1 5ED38B7A
-P 6900 3300
-F 0 "#PWR04" H 6900 3050 50  0001 C CNN
-F 1 "GND" H 6905 3127 50  0000 C CNN
-F 2 "" H 6900 3300 50  0001 C CNN
-F 3 "" H 6900 3300 50  0001 C CNN
-	1    6900 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7350 3450 7350 3150
-Wire Wire Line
-	7350 3150 7300 3150
-Wire Wire Line
-	6900 3150 6900 3300
 $Comp
 L power:GND #PWR02
 U 1 1 5ED57742
@@ -1209,8 +1175,6 @@ Wire Wire Line
 Wire Wire Line
 	6750 6000 6500 6000
 Connection ~ 6750 5300
-Wire Wire Line
-	7400 3750 7400 3900
 $Comp
 L MX_Alps_Hybrid:MX-NoLED SW10
 U 1 1 5F2644DC
@@ -1255,8 +1219,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6950 
 	1    6950 4250
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7400 3750 1    50   Input ~ 0
-COL8
 $Comp
 L MX_Alps_Hybrid:MX-NoLED SW22
 U 1 1 5F2644F8
@@ -1279,11 +1241,6 @@ F 3 "" H 7000 5375 50  0001 C CNN
 	1    7000 5350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7150 3900 7400 3900
-Connection ~ 7400 3900
-Wire Wire Line
-	7400 3900 7400 4600
 Wire Wire Line
 	7150 4600 7400 4600
 Connection ~ 7400 4600
@@ -1777,4 +1734,16 @@ Connection ~ 7600 6500
 Wire Wire Line
 	8300 6500 8950 6500
 Connection ~ 8300 6500
+NoConn ~ 6400 3250
+Wire Wire Line
+	6400 3250 6100 3250
+Wire Wire Line
+	7400 3750 7400 3900
+Text GLabel 7400 3750 1    50   Input ~ 0
+COL8
+Wire Wire Line
+	7150 3900 7400 3900
+Connection ~ 7400 3900
+Wire Wire Line
+	7400 3900 7400 4600
 $EndSCHEMATC
