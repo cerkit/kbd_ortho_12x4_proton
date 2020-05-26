@@ -19,42 +19,40 @@ U 1 1 5EF0AA12
 P 5100 1850
 F 0 "U1" H 5075 327 50  0000 C CNN
 F 1 "proton_c" H 5075 236 50  0000 C CNN
-F 2 "proton_c:proton_c" H 4950 1850 50  0001 C CNN
+F 2 "cerkit48:proton_c_no_center_pins" H 4950 1850 50  0001 C CNN
 F 3 "" H 4950 1850 50  0001 C CNN
 	1    5100 1850
 	1    0    0    -1  
 $EndComp
-Text GLabel 3800 1950 0    50   Input ~ 0
-ROW0
-Text GLabel 3800 1850 0    50   Input ~ 0
-ROW1
-Text GLabel 3800 1750 0    50   Input ~ 0
-ROW2
 Text GLabel 3800 1650 0    50   Input ~ 0
+ROW0
+Text GLabel 3800 1750 0    50   Input ~ 0
+ROW1
+Text GLabel 3800 1850 0    50   Input ~ 0
+ROW2
+Text GLabel 3800 1950 0    50   Input ~ 0
 ROW3
-Text GLabel 6300 3150 2    50   Input ~ 0
-COL0
-Text GLabel 6300 3050 2    50   Input ~ 0
+Text GLabel 6300 1350 2    50   Input ~ 0
 COL1
-Text GLabel 6300 2950 2    50   Input ~ 0
+Text GLabel 6300 1450 2    50   Input ~ 0
 COL2
-Text GLabel 6300 2850 2    50   Input ~ 0
+Text GLabel 6300 1550 2    50   Input ~ 0
 COL3
-Text GLabel 6300 2750 2    50   Input ~ 0
+Text GLabel 6300 1650 2    50   Input ~ 0
 COL4
-Text GLabel 6300 1950 2    50   Input ~ 0
+Text GLabel 6300 1750 2    50   Input ~ 0
 COL5
 Text GLabel 6300 1850 2    50   Input ~ 0
 COL6
-Text GLabel 6300 1750 2    50   Input ~ 0
+Text GLabel 6300 1950 2    50   Input ~ 0
 COL7
-Text GLabel 6300 1650 2    50   Input ~ 0
+Text GLabel 6300 2750 2    50   Input ~ 0
 COL8
-Text GLabel 6300 1550 2    50   Input ~ 0
+Text GLabel 6300 2850 2    50   Input ~ 0
 COL9
-Text GLabel 6300 1450 2    50   Input ~ 0
+Text GLabel 6300 2950 2    50   Input ~ 0
 COL10
-Text GLabel 6300 1350 2    50   Input ~ 0
+Text GLabel 6300 3050 2    50   Input ~ 0
 COL11
 Wire Wire Line
 	6100 3150 6300 3150
@@ -131,7 +129,6 @@ NoConn ~ 4900 550
 NoConn ~ 5250 550 
 NoConn ~ 6350 850 
 NoConn ~ 6350 1050
-NoConn ~ 6350 1250
 Wire Wire Line
 	3700 2300 4050 2300
 Wire Wire Line
@@ -146,8 +143,6 @@ Wire Wire Line
 	3700 3150 4050 3150
 Wire Wire Line
 	3700 3250 4050 3250
-Wire Wire Line
-	6350 1250 6100 1250
 Wire Wire Line
 	6350 1050 6100 1050
 Wire Wire Line
@@ -1746,4 +1741,8 @@ Wire Wire Line
 Connection ~ 7400 3900
 Wire Wire Line
 	7400 3900 7400 4600
+Text GLabel 6300 1250 2    50   Input ~ 0
+COL0
+Wire Wire Line
+	6300 1250 6100 1250
 $EndSCHEMATC
