@@ -16,56 +16,56 @@ $EndDescr
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 5F007A46
-P 1500 3200
-F 0 "H5" H 1600 3246 50  0001 L CNN
-F 1 "MountingHole" H 1600 3200 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1500 3200 50  0001 C CNN
-F 3 "~" H 1500 3200 50  0001 C CNN
-	1    1500 3200
+P 1850 2200
+F 0 "H5" H 1950 2246 50  0001 L CNN
+F 1 "MountingHole" H 1950 2200 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1850 2200 50  0001 C CNN
+F 3 "~" H 1850 2200 50  0001 C CNN
+	1    1850 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5EFF8634
-P 1500 3000
-F 0 "H4" H 1600 3046 50  0001 L CNN
-F 1 "MountingHole" H 1600 3000 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1500 3000 50  0001 C CNN
-F 3 "~" H 1500 3000 50  0001 C CNN
-	1    1500 3000
+P 1850 2000
+F 0 "H4" H 1950 2046 50  0001 L CNN
+F 1 "MountingHole" H 1950 2000 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1850 2000 50  0001 C CNN
+F 3 "~" H 1850 2000 50  0001 C CNN
+	1    1850 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5EFE920E
-P 1500 2800
-F 0 "H3" H 1600 2846 50  0001 L CNN
-F 1 "MountingHole" H 1600 2800 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1500 2800 50  0001 C CNN
-F 3 "~" H 1500 2800 50  0001 C CNN
-	1    1500 2800
+P 1850 1800
+F 0 "H3" H 1950 1846 50  0001 L CNN
+F 1 "MountingHole" H 1950 1800 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1850 1800 50  0001 C CNN
+F 3 "~" H 1850 1800 50  0001 C CNN
+	1    1850 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5EFD9E24
-P 1500 2600
-F 0 "H2" H 1600 2646 50  0001 L CNN
-F 1 "MountingHole" H 1600 2600 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1500 2600 50  0001 C CNN
-F 3 "~" H 1500 2600 50  0001 C CNN
-	1    1500 2600
+P 1850 1600
+F 0 "H2" H 1950 1646 50  0001 L CNN
+F 1 "MountingHole" H 1950 1600 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1850 1600 50  0001 C CNN
+F 3 "~" H 1850 1600 50  0001 C CNN
+	1    1850 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5EFA9DB5
-P 1500 2400
-F 0 "H1" H 1600 2446 50  0001 L CNN
-F 1 "MountingHole" H 1600 2400 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1500 2400 50  0001 C CNN
-F 3 "~" H 1500 2400 50  0001 C CNN
-	1    1500 2400
+P 1850 1400
+F 0 "H1" H 1950 1446 50  0001 L CNN
+F 1 "MountingHole" H 1950 1400 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1850 1400 50  0001 C CNN
+F 3 "~" H 1850 1400 50  0001 C CNN
+	1    1850 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1733,4 +1733,37 @@ $EndComp
 Connection ~ 2200 3900
 Wire Wire Line
 	2200 3750 2200 3900
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5ED14CA1
+P 1850 2400
+F 0 "H?" H 1950 2446 50  0001 L CNN
+F 1 "MountingHole" H 1950 2400 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1850 2400 50  0001 C CNN
+F 3 "~" H 1850 2400 50  0001 C CNN
+	1    1850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5ED2282C
+P 1850 2600
+F 0 "H?" H 1950 2646 50  0001 L CNN
+F 1 "MountingHole" H 1950 2600 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1850 2600 50  0001 C CNN
+F 3 "~" H 1850 2600 50  0001 C CNN
+	1    1850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5ED30330
+P 1850 2800
+F 0 "H?" H 1950 2846 50  0001 L CNN
+F 1 "MountingHole" H 1950 2800 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1850 2800 50  0001 C CNN
+F 3 "~" H 1850 2800 50  0001 C CNN
+	1    1850 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
