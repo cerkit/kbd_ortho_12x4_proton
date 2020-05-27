@@ -5,7 +5,7 @@
 
  This hasn't been tested.
 
- It has a pin header for I2C integration to the left of the proton. It's connected to the I2C1 pins on B6 and B7 of the Proton.
+ It has a pin header for I2C integration at the top of the board. It's connected to the I2C1 pins on B8 and B9 of the Proton.
 
  There's a reset button on the right side of the board.
 
@@ -13,22 +13,22 @@
 
 Here are the pin connections:
 
-* Row 0: B0
-* Row 1: B1
-* Row 2: B2
-* Row 3: B3
-* Col 0: A13
-* Col 1: A14
-* Col 2: B12
-* Col 3: B11
-* Col 4: B10
-* Col 5: B9
-* Col 6: B15
-* Col 7: B14
-* Col 8: B13
-* Col 9: B8
-* Col 10: A0
-* Col 11: A1
+* Row 0: B13
+* Row 1: B14
+* Row 2: B15
+* Row 3: B10
+* Col 0: B7
+* Col 1: B6
+* Col 2: B5
+* Col 3: B4
+* Col 4: B3
+* Col 5: B2
+* Col 6: B1
+* Col 7: B0
+* Col 8: A6
+* Col 9: A7
+* Col 10: A8
+* Col 11: A15
 
 I've created the board firmware as [cerkit48 in my GitHub branch for qmk_firmware](https://github.com/cerkit/qmk_firmware)
 
