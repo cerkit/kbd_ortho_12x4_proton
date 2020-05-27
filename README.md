@@ -5,11 +5,7 @@
 
  This hasn't been tested.
 
- It has a pin header for I2C integration at the top of the board. It's connected to the I2C1 pins on B8 and B9 of the Proton.
-
- There's a reset button on the right side of the board.
-
- [Reset button](https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf)
+It has a pin header for I2C integration at the top of the board. It's connected to the I2C1 pins on B8 and B9 of the Proton.
 
 Here are the pin connections:
 
@@ -29,6 +25,7 @@ Here are the pin connections:
 * Col 9: A7
 * Col 10: A8
 * Col 11: A15
+
 
 I've created the board firmware as [cerkit48 in my GitHub branch for qmk_firmware](https://github.com/cerkit/qmk_firmware)
 
